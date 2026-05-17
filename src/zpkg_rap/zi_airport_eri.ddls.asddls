@@ -11,6 +11,8 @@ define view entity ZI_AIRPORT_ERI
   as select from /dmo/airport
 {
   key airport_id as AirportId,
+
+      @Semantics.text: true
       name       as Name,
       city       as City,
       country    as Country

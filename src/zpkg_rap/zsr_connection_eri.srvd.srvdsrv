@@ -1,0 +1,5 @@
+@EndUserText.label: 'Definição das cds que serão exportas'
+define service ZSR_CONNECTION_ERI {
+  expose zi_connection_eri;
+  expose ZI_FLIGHT_ERI;
+}

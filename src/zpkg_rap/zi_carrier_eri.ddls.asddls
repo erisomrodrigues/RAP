@@ -11,6 +11,8 @@ define view entity ZI_CARRIER_ERI
   as select from /dmo/carrier
 {
   key carrier_id as carrierid,
+
+      @Semantics.text: true --Determina a utilização para descrição
       name       as carrier_name
 
 }
