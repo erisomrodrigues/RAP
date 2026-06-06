@@ -19,7 +19,7 @@ define view entity ZC_BOOKING_M_ERI
       @UI.lineItem: [{position: 20, importance: #HIGH  }]
   key BookingId,
 
-      @UI.identification: [{position: 30A }]
+      @UI.identification: [{position: 30 }]
       @UI.lineItem: [{position: 30, importance: #HIGH  }]
       BookingDate,
       CustomerId,
